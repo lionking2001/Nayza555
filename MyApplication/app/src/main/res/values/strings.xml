@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    //activity main
+    <string name="btnClassic">Classic Quiz</string>
+    <string name="btnTime">Time Trial</string>
+
+    //activity result
+    <string name="your_score">Your Score</string>
+
+
+
+</resources>

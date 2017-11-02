@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="##fffacd">
+
+
+
+    <Button
+        android:id="@+id/btnClassic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@color/btnClassic"
+        android:text="@string/btnClassic"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/icon_classic"
+        android:drawablePadding="-35sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12sp"
+        android:background="@color/btnTime"
+        android:text="@string/btnTime"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/icon_time"
+        android:drawablePadding="-35sp"
+        android:layout_below="@+id/btnClassic"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:textSize="20sp" />
+
+
+
+
+
+</RelativeLayout>
